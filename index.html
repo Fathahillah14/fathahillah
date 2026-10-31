@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fathahillah.dev - Muhammad Fathahillah</title>
+  <meta name="description" content="Portfolio pribadi Muhammad Fathahillah - IT Enthusiast, Fresh Graduate, Aspiring Web Developer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="assets/css/inter-font.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="nav-logo">
+        Fathahillah<span class="accent">.dev</span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#beranda" class="nav-link active" data-section="beranda">Beranda</a></li>
+        <li><a href="#tentang" class="nav-link" data-section="tentang">Tentang</a></li>
+        <li><a href="#keahlian" class="nav-link" data-section="keahlian">Keahlian</a></li>
+        <li><a href="#proyek" class="nav-link" data-section="proyek">Proyek</a></li>
+        <li><a href="#perjalanan" class="nav-link" data-section="perjalanan">Perjalanan</a></li>
+        <li><a href="#blog" class="nav-link" data-section="blog">Blog</a></li>
+        <li><a href="#kontak" class="nav-link" data-section="kontak">Kontak</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="id">ID</button>
+          <span>|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="assets/cv-fathahillah.pdf" download class="btn btn-outline btn-sm">
+          <i class="fas fa-download"></i> Unduh CV
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO / BERANDA ===================== -->
+  <section class="hero section" id="beranda">
+    <div class="hero-bg">
+      <div class="hero-glow"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-greeting">
+          👋 Halo, Saya
+        </div>
+        <h1 class="hero-name">
+          Muhammad<br>
+          <span class="accent">Fathahillah</span>
+        </h1>
+        <div class="hero-code-tag">&lt;/&gt;</div>
+        <p class="hero-title">IT Enthusiast | Fresh Graduate<br>Aspiring Web Developer</p>
+        <p class="hero-desc">
+          Lulusan baru S1 Teknik Informatika yang memiliki semangat tinggi untuk belajar, membangun, dan berkembang di dunia teknologi. Saat ini saya fokus mendalami Web Development dan membangun proyek-proyek yang bermanfaat.
+        </p>
+        <div class="hero-buttons">
+          <a href="#proyek" class="btn btn-primary">
+            Lihat Proyek Saya <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#kontak" class="btn btn-ghost">
+            Hubungi Saya <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/fathahillah" target="_blank" aria-label="GitHub" class="social-github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-fathahillah" target="_blank" aria-label="LinkedIn" class="social-linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/muh.fathahilla" target="_blank" aria-label="Instagram" class="social-instagram"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:fathahillahmuhammad57@gmail.com" aria-label="Email" class="social-email"><i class="fas fa-envelope"></i></a>
+          <a href="https://wa.me/628211039051" target="_blank" aria-label="WhatsApp" class="social-whatsapp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-wrapper">
+          <div class="hero-photo-ring"></div>
+          <div class="hero-photo-ring ring-2"></div>
+          <div class="hero-photo">
+            <img src="assets/images/profile.svg" alt="Muhammad Fathahillah" />
+          </div>
+          <!-- Floating tech icons -->
+          <div class="tech-icon html" title="HTML5"><i class="fab fa-html5"></i></div>
+          <div class="tech-icon css" title="CSS3"><i class="fab fa-css3-alt"></i></div>
+          <div class="tech-icon js" title="JavaScript"><i class="fab fa-js"></i></div>
+          <div class="tech-icon php" title="PHP"><i class="fab fa-php"></i></div>
+          <div class="tech-icon laravel" title="Laravel">
+            <i class="fab fa-laravel" style="font-size:1.6rem"></i>
+          </div>
+          <div class="tech-icon mysql" title="MySQL"><span>MySQL</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats container">
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
+        <div>
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Proyek Selesai</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fas fa-layer-group"></i></div>
+        <div>
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Teknologi Dipelajari</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fas fa-users"></i></div>
+        <div>
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Pengalaman Organisasi</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fas fa-fire"></i></div>
+        <div>
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Semangat Belajar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TENTANG SAYA ===================== -->
+  <section class="section about-section" id="tentang">
+    <div class="container">
+      <div class="section-breadcrumb">
+        <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Tentang</span>
+      </div>
+      <h2 class="section-title">Tentang Saya</h2>
+
+      <div class="about-grid">
+        <div class="about-text-col">
+          <p class="about-desc">
+            Saya adalah lulusan baru S1 Teknik Informatika yang sangat tertarik dengan dunia teknologi, khususnya di bidang <strong>Web Development</strong>.
+          </p>
+          <p class="about-desc">
+            Saya senang belajar hal baru, memecahkan masalah, dan membangun solusi yang bermanfaat.
+          </p>
+          <p class="about-desc">
+            Tujuan saya adalah menjadi <strong>Full stack Developer</strong> yang kompeten dan terus berkembang melalui teknologi.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-user"></i> Nama</span>
+              <span class="info-value">Muhammad Fathahillah</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-calendar"></i> Tempat, Tanggal Lahir</span>
+              <span class="info-value">Raha , 14-02-2004</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-graduation-cap"></i> Pendidikan</span>
+              <span class="info-value">S1 Teknik Informatika</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-calendar-check"></i> Lulus</span>
+              <span class="info-value">Tahun 2026</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-envelope"></i> Email</span>
+              <span class="info-value">fathahillahmuhammad57@gmail.com</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-map-marker-alt"></i> Lokasi</span>
+              <span class="info-value">Indonesia</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-language"></i> Bahasa</span>
+              <span class="info-value">Indonesia, Inggris</span>
+            </div>
+          </div>
+
+          <a href="assets/cv-fathahillah.pdf" download class="btn btn-outline" style="margin-top:1.5rem;">
+            <i class="fas fa-download"></i> Unduh CV
+          </a>
+        </div>
+
+        <div class="about-edu-col">
+          <h3 class="col-title">Pendidikan</h3>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-info">
+              <p class="edu-year">2022 – 2026</p>
+              <h4 class="edu-degree">S1 Teknik Informatika</h4>
+              <p class="edu-school">Universitas Mercu Buana —</p>
+              <p class="edu-desc">Mempelajari pemrograman, struktur data, basis data, rekayasa perangkat lunak, dan jaringan komputer.</p>
+            </div>
+          </div>
+          <a href="assets/cv-fathahillah.pdf" download class="btn btn-outline" style="margin-top:1.5rem;">
+            <i class="fas fa-download"></i> Unduh CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KEAHLIAN SAYA ===================== -->
+  <section class="section skills-section" id="keahlian">
+    <div class="container">
+      <div class="section-breadcrumb">
+        <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Keahlian</span>
+      </div>
+      <h2 class="section-title">Keahlian Saya</h2>
+
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-tab="teknologi">Teknologi</button>
+        <button class="tab-btn" data-tab="tools">Tools & Lainnya</button>
+      </div>
+
+      <div class="skills-content" id="tab-teknologi">
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon html-icon"><i class="fab fa-html5"></i></div>
+              <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon css-icon"><i class="fab fa-css3-alt"></i></div>
+              <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="85"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon js-icon"><i class="fab fa-js"></i></div>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="60"></div>
+            </div>
+            <span class="skill-percent">60%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon php-icon"><i class="fab fa-php"></i></div>
+              <span class="skill-name">PHP</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75"></div>
+            </div>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon laravel-icon"><i class="fab fa-laravel"></i></div>
+              <span class="skill-name">Laravel</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="70"></div>
+            </div>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon mysql-icon"><i class="fas fa-database"></i></div>
+              <span class="skill-name">MySQL</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75"></div>
+            </div>
+            <span class="skill-percent">75%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-content hidden" id="tab-tools">
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon git-icon"><i class="fab fa-git-alt"></i></div>
+              <span class="skill-name">Git</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="70"></div>
+            </div>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon github-icon"><i class="fab fa-github"></i></div>
+              <span class="skill-name">GitHub</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="72"></div>
+            </div>
+            <span class="skill-percent">72%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon vscode-icon"><i class="fas fa-code"></i></div>
+              <span class="skill-name">VS Code</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-header">
+              <div class="skill-icon figma-icon"><i class="fab fa-figma"></i></div>
+              <span class="skill-name">Figma</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="55"></div>
+            </div>
+            <span class="skill-percent">55%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-skills-note">
+        <h3>Tentang Keahlian</h3>
+        <p>Saya masih terus belajar dan meningkatkan kemampuan saya di bidang pengembangan web. Saya aktif mencari referensi terbaru untuk meningkatkan skill sebagai seorang developer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROYEK SAYA ===================== -->
+  <section class="section projects-section" id="proyek">
+    <div class="container">
+      <div class="section-breadcrumb">
+        <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Proyek</span>
+      </div>
+      <h2 class="section-title">Proyek Saya</h2>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="semua">Semua</button>
+        <button class="filter-btn" data-filter="website">Website</button>
+        <button class="filter-btn" data-filter="webapp">Web App</button>
+        <button class="filter-btn" data-filter="skripsi">Skripsi / Akademik</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="skripsi webapp">
+          <div class="project-image">
+            <img src="assets/images/project1.svg" alt="Sistem Prediksi Harga Ayam Broiler" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sistem Prediksi Harga Ayam Broiler</h3>
+            <p class="project-desc">Prediksi harga ayam broiler menggunakan model regresi linier berganda.</p>
+            <div class="project-tags">
+              <span class="tag tag-php">PHP</span>
+              <span class="tag tag-mysql">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="webapp website">
+          <div class="project-image">
+            <img src="assets/images/project2.svg" alt="SIM Sarah Diva" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sarah Diva</h3>
+            <p class="project-desc">Sistem informasi manajemen kursus menjahit.</p>
+            <div class="project-tags">
+              <span class="tag tag-laravel">Laravel</span>
+              <span class="tag tag-mysql">MySQL</span>
+              <span class="tag tag-css">Tailwind CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="website">
+          <div class="project-image">
+            <img src="assets/images/project3.svg" alt="Portfolio Website" />
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="btn btn-ghost btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">Website portfolio pribadi yang dibangun untuk menampilkan profil dan proyek saya.</p>
+            <div class="project-tags">
+              <span class="tag tag-html">HTML</span>
+              <span class="tag tag-css">CSS</span>
+              <span class="tag tag-js">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i> Lihat Demo</a>
+              <a href="https://github.com/fathahillah" target="_blank" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-footer">
+        <a href="#proyek" class="btn btn-outline">
+          Lihat Semua Proyek <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PERJALANAN SAYA ===================== -->
+  <section class="section journey-section" id="perjalanan">
+    <div class="container">
+      <div class="section-breadcrumb">
+        <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Perjalanan</span>
+      </div>
+      <h2 class="section-title">Perjalanan Saya</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022</span>
+            <h3 class="timeline-title">Lulus S1 Teknik Informatika</h3>
+            <p class="timeline-desc">Perjalanan menuju studi dan saya memulai petualangan di dunia IT.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022 – 2026</span>
+            <h3 class="timeline-title">Fokus Belajar Web Development</h3>
+            <p class="timeline-desc">Mempelajari HTML, CSS, JavaScript, PHP, Laravel, dan MySQL secara mendalam.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022</span>
+            <h3 class="timeline-title">Membangun Proyek Pertama</h3>
+            <p class="timeline-desc">Berhasil membangun proyek berbasis web pertama untuk mengasah kemampuan.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item active">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2024</span>
+            <h3 class="timeline-title">Aktif Belajar & Eksplorasi</h3>
+            <p class="timeline-desc">Terus belajar hal baru dan aktif dalam komunitas teknologi yang menarik.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BLOG / ARTIKEL ===================== -->
+  <section class="section blog-section" id="blog">
+    <div class="container">
+      <div class="blog-header">
+        <div>
+          <div class="section-breadcrumb">
+            <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Blog</span>
+          </div>
+          <h2 class="section-title">Blog / Artikel</h2>
+        </div>
+        <a href="#blog" class="btn btn-outline">Lihat Semua Artikel <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/images/blog1.svg" alt="Belajar Laravel untuk Pemula" />
+            <span class="blog-category">Web Development</span>
+          </div>
+          <div class="blog-body">
+            <p class="blog-date"><i class="fas fa-calendar"></i> 12 Mar 2024</p>
+            <h3 class="blog-title">Belajar Laravel untuk Pemula</h3>
+            <p class="blog-desc">Beberapa tips yang membantu saya ketika pertama kali belajar framework Laravel ini untuk membangun proyek pertama.</p>
+            <div class="blog-footer">
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/images/blog2.svg" alt="Cara Efektif Belajar Pemrograman" />
+            <span class="blog-category">Tips & Trik</span>
+          </div>
+          <div class="blog-body">
+            <p class="blog-date"><i class="fas fa-calendar"></i> 16 April 2024</p>
+            <h3 class="blog-title">Cara Efektif Belajar Pemrograman</h3>
+            <p class="blog-desc">Dasar-dasar belajar metodologi yang efektif untuk pemula, yang sangat efisien dalam belajar pemrograman.</p>
+            <div class="blog-footer">
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="assets/images/blog3.svg" alt="Pengantar MySQL untuk Pemula" />
+            <span class="blog-category">Database</span>
+          </div>
+          <div class="blog-body">
+            <p class="blog-date"><i class="fas fa-calendar"></i> 20 Mei 2024</p>
+            <h3 class="blog-title">Pengantar MySQL untuk Pemula</h3>
+            <p class="blog-desc">Dasar-dasar MySQL yang perlu diketahui oleh setiap developer, khususnya dan direkomendasikan untuk developer.</p>
+            <div class="blog-footer">
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+              <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK SAYA ===================== -->
+  <section class="section contact-section" id="kontak">
+    <div class="container">
+      <div class="section-breadcrumb">
+        <span>Beranda</span> <i class="fas fa-chevron-right"></i> <span class="active">Kontak</span>
+      </div>
+      <h2 class="section-title">Kontak Saya</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info-col">
+          <p class="contact-tagline">Punya pertanyaan atau ingin bekerja sama?</p>
+          <p class="contact-desc">Yuk, hubungi saya melalui form atau media sosial berikut.</p>
+
+          <div class="contact-info-list">
+            <a href="mailto:fathahillahmuhammad57@gmail.com" class="contact-info-item contact-email">
+              <i class="fas fa-envelope"></i>
+              <span>fathahillahmuhammad57@gmail.com</span>
+            </a>
+            <a href="https://wa.me/628211039051" target="_blank" class="contact-info-item contact-wa">
+              <i class="fab fa-whatsapp"></i>
+              <span>0821-1039-051</span>
+            </a>
+            <a href="https://instagram.com/muh.fathahilla" target="_blank" class="contact-info-item contact-instagram">
+              <i class="fab fa-instagram"></i>
+              <span>@muh.fathahilla</span>
+            </a>
+            <a href="https://github.com/fathahillah" target="_blank" class="contact-info-item contact-github">
+              <i class="fab fa-github"></i>
+              <span>github.com/fathahillah</span>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-fathahillah" target="_blank" class="contact-info-item contact-linkedin">
+              <i class="fab fa-linkedin-in"></i>
+              <span>linkedin.com/in/muhammad-fathahillah</span>
+            </a>
+          </div>
+
+          <div class="contact-visual">
+            <div class="contact-orb"></div>
+          </div>
+        </div>
+
+        <div class="contact-form-col">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama Anda</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Anda</label>
+              <input type="email" id="email" name="email" placeholder="Email Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan Anda</label>
+              <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Kirim Pesan <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" id="footer">
+    <div class="container footer-container">
+      <a href="#beranda" class="footer-logo">Fathahillah<span class="accent">.dev</span></a>
+      <p class="footer-copy">© 2024 Muhammad Fathahillah. All rights reserved.</p>
+      <p class="footer-made">Dibuat dengan <i class="fas fa-heart" style="color:#e74c3c"></i> dan semangat belajar</p>
+      <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
